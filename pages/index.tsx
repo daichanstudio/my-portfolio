@@ -7,7 +7,7 @@ import {
 } from "next";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
-import { Service } from "../types";
+import { Service } from "../type";
 import {motion} from 'framer-motion'
 import { fadeInUp, stagger, routeAnimation } from "../animations";
 

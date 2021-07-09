@@ -2,7 +2,7 @@ import { useState } from "react";
 import ProjectCard from "../components/ProjectCard";
 import ProjectsNavbar from "../components/ProjectsNavbar";
 import { projects as projectsData } from "../data";
-import { Category } from "../types";
+import { Category } from "../type";
 import {motion} from 'framer-motion'
 import { fadeInUp, stagger, routeAnimation } from "../animations";
 

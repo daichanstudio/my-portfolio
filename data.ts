@@ -2,7 +2,7 @@ import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
-import { IProject, Service, Skill } from "./types";
+import { IProject, Service, Skill } from "./type";
 
 import { BsCircleFill } from "react-icons/bs";
 
@@ -38,18 +38,25 @@ export const services: Service[] = [
   },
   {
     Icon: RiComputerLine,
-    title: "Whatever",
+    title: "Qualifications",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+      "TOEIC 900 (2021/10)<br>Applied Information Technology Engineer Examination（応用情報技術者試験）",
+
   },
 ];
 
 export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "Python",
-    level: "45",
+    name: "React",
+    level: "80",
   },
+  {
+    Icon: BsCircleFill,
+    name: "Next.js",
+    level: "80",
+  },
+
   {
     Icon: BsCircleFill,
     name: "Java Script",
@@ -62,20 +69,48 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "React",
-    level: "70",
+    name: "Type Script",
+    level: "60",
   },
   {
     Icon: BsCircleFill,
     name: "Django",
     level: "80",
   },
-  {
-    Icon: BsCircleFill,
-    name: "Bootstrap",
-    level: "80",
-  },
+  
 ];
+// export const languages: Skill[] = [
+//   {
+//     Icon: BsCircleFill,
+//     name: "Python",
+//     level: "45",
+//   },
+//   {
+//     Icon: BsCircleFill,
+//     name: "Java Script",
+//     level: "60",
+//   },
+//   {
+//     Icon: BsCircleFill,
+//     name: "React Native",
+//     level: "80",
+//   },
+//   {
+//     Icon: BsCircleFill,
+//     name: "React",
+//     level: "70",
+//   },
+//   {
+//     Icon: BsCircleFill,
+//     name: "Django",
+//     level: "80",
+//   },
+//   {
+//     Icon: BsCircleFill,
+//     name: "Bootstrap",
+//     level: "80",
+//   },
+// ];
 
 export const tools: Skill[] = [
   {
