@@ -11,13 +11,13 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "I can build a beautiful and scalable SPA using <b>React.js</b>, <b>TypeScript</b>, and <b>Next.js</b> ",
   },
   {
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "handle database, server, api using <b>Firebase </b> & other popular frameworks",
   },
   {
     Icon: AiOutlineApi,
@@ -41,7 +41,6 @@ export const services: Service[] = [
     title: "Qualifications",
     about:
       "TOEIC 900 (2021/10)<br>Applied Information Technology Engineer Examination（応用情報技術者試験）",
-
   },
 ];
 
@@ -53,194 +52,140 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
+    name: "Type Script",
+    level: "75",
+  },
+  {
+    Icon: BsCircleFill,
     name: "Next.js",
-    level: "80",
+    level: "70",
   },
 
   {
     Icon: BsCircleFill,
     name: "Java Script",
-    level: "60",
+    level: "90",
   },
   {
     Icon: BsCircleFill,
     name: "React Native",
-    level: "80",
+    level: "65",
   },
   {
     Icon: BsCircleFill,
-    name: "Type Script",
-    level: "60",
+    name: "Redux/Redux ToolKit",
+    level: "55",
   },
-  {
-    Icon: BsCircleFill,
-    name: "Django",
-    level: "80",
-  },
-  
+
+
 ];
-// export const languages: Skill[] = [
-//   {
-//     Icon: BsCircleFill,
-//     name: "Python",
-//     level: "45",
-//   },
-//   {
-//     Icon: BsCircleFill,
-//     name: "Java Script",
-//     level: "60",
-//   },
-//   {
-//     Icon: BsCircleFill,
-//     name: "React Native",
-//     level: "80",
-//   },
-//   {
-//     Icon: BsCircleFill,
-//     name: "React",
-//     level: "70",
-//   },
-//   {
-//     Icon: BsCircleFill,
-//     name: "Django",
-//     level: "80",
-//   },
-//   {
-//     Icon: BsCircleFill,
-//     name: "Bootstrap",
-//     level: "80",
-//   },
-// ];
+
 
 export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "Figma",
+    name: "Material UI",
     level: "85",
   },
   {
     Icon: BsCircleFill,
-    name: "Photoshop",
-    level: "45",
+    name: "Tailwind CSS",
+    level: "70",
   },
-  {
-    Icon: BsCircleFill,
-    name: "Illustrator",
-    level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Framer",
-    level: "45",
-  },
+
 ];
 
 export const projects: IProject[] = [
-  { 
-    id:1,
+  {
+    id: 1,
     name: "COVID Tracker",
     description:
       "This app shows a statistical view about corona virus over the world",
     image_path: "/images/covid.jpg",
-    deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
+    deployed_url: "https://covid-19-tracker-2567a.web.app/",
+    github_url: "https://github.com/daichanstudio/covid-19-tracker",
     category: ["react"],
     key_techs: ["React", "Chart.js", "Material UI"],
   },
   {
-    id:2,
-    name: "Algorithm Visualizer",
+    id: 2,
+    name: "Mabo-log",
     image_path: "/images/algoVisual.png",
-    deployed_url: "https://visual-algorithm.web.app/",
-    github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
-    category: ["react"],
+    deployed_url: "https://mabo-log-v2.vercel.app/",
+    github_url: "https://github.com/daichanstudio/mabo-log",
+    category: ["react", "next"],
     description:
-      "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
-    key_techs: ["React", "firebase", "Framer Motion"],
+      "A blog for my brother",
+    key_techs: ["React", "Next", "Markdown", "Tailwind css"],
   },
 
   {
-    id:3,
-    name: "Dev Talks",
+    id: 3,
+    name: "COVID Dashboard",
     image_path: "/images/dev.jpg",
-    deployed_url: "https://dev-talks.herokuapp.com/",
-    github_url: "https://github.com/Dey-Sumit/Dev-talks",
-    category: ["node", "mongo", "react"],
+    deployed_url: "https://covid-dashboard-api-da763.firebaseapp.com/",
+    github_url: "https://github.com/daichanstudio/covid_dashboard_api",
+    category: ["typescript", "react"],
     description:
-      "Social Media app for developers who can share project,create posts,etc...",
+    "This app shows a statistical view about corona virus over the world",
     key_techs: [
       "React",
-      "Redux",
-      "Node",
-      "Express",
-      "Mongo",
-      "REST API",
-      "Bootstrap",
+      "Redux ToolKit",
+      "Chart.js",
+      "TypeScript",
+      "Firebase",
+      "Material UI",
+
     ],
   },
 
   {
-    id:4,
-    name: "Realtime Chat App",
+    id: 4,
+    name: "Chat App",
     image_path: "/images/chatapp.jpg",
-    deployed_url: "https://sumit-chat.netlify.app/",
-    github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
-    category: ["node", "react"],
+    deployed_url: "https://chatbot-app-b9e83.web.app/",
+    github_url: "https://github.com/daichanstudio/chatbot-app",
+    category: ["react"],
     description:
       "Basic Realtime Chat App where one can create a room can talk to each other",
-    key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
+    key_techs: ["React","Material UI"],
   },
 
   {
-    id:5,
-    name: "Tweeter Clone",
+    id: 5,
+    name: "Code App",
     image_path: "/images/tweetme.jpg",
-    deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-    github_url: "https://github.com/Dey-Sumit/tweetme",
-    category: ["django", "react"],
+    deployed_url: "#",
+    github_url: "https://github.com/daichanstudio/code-app",
+    category: ["typescript", "react"],
     description:
-      "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
-    key_techs: ["React", "Django", "Django REST API"],
+      "You can learn Markdown",
+    key_techs: ["React", "Typescript"],
   },
 
   {
-    id:6,
-    name: "Color Classification using tf.js",
+    id: 6,
+    name: "News App",
     image_path: "/images/color.jpg",
-    deployed_url: "!#",
-    github_url: "https://github.com/Dey-Sumit/color-classification",
-    category: ["express"],
+    deployed_url: "https://daichanstudio.github.io/News-App/",
+    github_url: "https://github.com/daichanstudio/News-App",
+    category: ["react native", "react"],
     description:
-      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
-    key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
+      "First React Native Project :) | ",
+    key_techs: ["React Native", "React", "News API", "Redux"],
   },
   {
-    id:7,
-    name: "YouTube using YouTube ",
+    id: 7,
+    name: "My Portfolio",
     image_path: "/images/youtubeClone.png",
-    deployed_url: "https://not-utube.web.app/",
-    github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
-    category: ["express"],
+    deployed_url: "https://my-portfolio-5w93xhc6d-daichanstudio.vercel.app/",
+    github_url: "https://github.com/daichanstudio/my-portfolio",
+    category: ["react", "typescript", "next"],
     description:
-      'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
+      "Introduce myself",
     key_techs: [
-      "React",
-      "Redux",
-      "Firebase Auth",
-      "YouTube API",
-      "Sass",
-      "Bootstrap",
+      "React", "Typescript", "Next", "Tailwind css"
     ],
   },
-  {
-    id:8,
-    name: "Football App",
-    image_path: "/images/football.png",
-    deployed_url: "https://o-my-goal.web.app/",
-    github_url: "https://github.com/Dey-Sumit/football-app",
-    category: ["react"],
-    description:
-      "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
-    key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
-  },
+
 ];

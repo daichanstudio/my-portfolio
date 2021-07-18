@@ -5,6 +5,7 @@ module.exports = {
     fontFamily: {
       sans: ["ui-sans-serif", "system-ui"],
       kaushan: ["Kaushan Script"],
+      roboto: ["Roboto"],
     },
     boxShadow: {
       "custom-light": " 0 0 10px #313131",

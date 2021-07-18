@@ -23,9 +23,13 @@ const About: NextPage = () => {
         Web Development
       </h6>
       <div
-        className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
+        className="flex-grow p-4 mt-5 dark:bg-dark-100 "
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
+      {/* <div
+        className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
+        style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
+      > */}
         <h4 className="my-3 text-xl font-semibold tracking-wide">
           What I am doing
         </h4>
@@ -35,9 +39,14 @@ const About: NextPage = () => {
           {services.map((service) => (
             <motion.div
               variants={fadeInUp}
-              className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1 "
+              className="col-span-2 p-2 border-4 border-solid rounded-lg border-light-blue-500 dark:bg-dark-200 md:col-span-1"
               key={service.title}
             >
+            {/* <motion.div
+              variants={fadeInUp}
+              className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1 "
+              key={service.title}
+            > */}
               <ServiceCard service={service} />
             </motion.div>
           ))}

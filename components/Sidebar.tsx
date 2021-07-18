@@ -8,37 +8,41 @@ const Sidebar = () => {
   const { theme, setTheme } = useTheme();
 
   const changeTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light");
+    // setTheme(theme === "light" ? "dark" : "light");
+    setTheme(theme === "dark" ? "light" : "dark");
   };
 
   return (
     <div>
       <Image
-        src="/images/grid9.jpg"
+        src="/images/profile.jpg"
         alt="avatar"
         className="mx-auto border rounded-full "
-        height="128px"
-        width="128px"
+        height="350px"
+        width="350px"
         layout="intrinsic"
         quality="100"
-
       />
-      <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
+      <h3 className="my-4 text-5xl font-medium tracking-wider font-kaushan">
         <span className="text-green">Daichi </span>
         Watanabe
       </h3>
-      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
-        Web Developer
-      </p>
-            {/* Resume */}
-      <a className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500" 
-         href=""
-         download="name">
-        <GiTie className="w-6 h-6"/>
-        Download Resume
-      </a>
+
+      <button
+
+      className="flex justify-around w-8/12 w-9/12 px-5 py-2 mx-auto my-4 my-5 text-lg text-white bg-blue-500 rounded-full cursor-pointer focus:outline-none hover:scale-105"
+      >
+        {/* //TODO remove bg black */}
+        <a href="https://github.com/daichanstudio">
+          <AiFillGithub className="w-8 h-8 cursor-pointer" />
+        </a>
+        GitHub
+      </button>
+  
+     
+
       {/* social -icon */}
-      <div className="flex justify-around w-9/12 mx-auto my-5 text-green-500 md:w-full">
+      {/* <div className="flex justify-around w-9/12 mx-auto my-5 text-green-500 md:w-full ">
         <a href="">
           <AiFillYoutube className="w-8 h-8 cursor-pointer" />
         </a>
@@ -48,31 +52,26 @@ const Sidebar = () => {
         <a href="">
           <AiFillTwitterCircle className="w-8 h-8 cursor-pointer" />
         </a>
-      </div>
+      </div> */}
 
       {/* address */}
       <div 
-        className="py-4 my-5 bg-gray-200 dark:bg-dark-200 dark:bg-black-500"
+        className="py-4 my-1 dark:bg-black-500"
         style={{marginLeft: '-1rem', marginRight: '-1rem'}}>
         <div className="flex items-center justify-center">
         <GoLocation className="mr-2" />
-          <span>Japan, Tokyo</span>
+          <span><b>Japan, Tokyo</b></span>
         </div>
-        <p className="my-2">abc@gmail.com</p>
-        <p className="my-2">000-0000-0000</p>
+
       </div>
-      <button
-        className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
-        onClick={() => window.open("mailto:w.daichi2835@gmail.com")}
-      >
-        Email me
-      </button>
+
+   
       <button
         onClick={changeTheme}
-        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 focus:outline-none hover:scale-105 "
+        className="w-8/12 px-5 py-2 my-4 text-white bg-black bg-blue-500 rounded-full cursor-pointer focus:outline-none hover:scale-105"
       >
         {/* //TODO remove bg black */}
-        Toggle Theme
+        Change Theme
       </button>
       
     </div>
