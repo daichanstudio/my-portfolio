@@ -8,7 +8,6 @@ const Sidebar = () => {
   const { theme, setTheme } = useTheme();
 
   const changeTheme = () => {
-    // setTheme(theme === "light" ? "dark" : "light");
     setTheme(theme === "dark" ? "light" : "dark");
   };
 
@@ -33,10 +32,12 @@ const Sidebar = () => {
       className="flex justify-around w-8/12 w-9/12 px-5 py-2 mx-auto my-4 my-5 text-lg text-white bg-blue-500 rounded-full cursor-pointer focus:outline-none hover:scale-105"
       >
         {/* //TODO remove bg black */}
-        <a href="https://github.com/daichanstudio">
-          <AiFillGithub className="w-8 h-8 cursor-pointer" />
+        <a href="https://github.com/daichanstudio" className="flex space-between">
+         <AiFillGithub className="w-8 h-8 cursor-pointer" />
+         GitHub
         </a>
-        GitHub
+   
+   
       </button>
   
      

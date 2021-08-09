@@ -15,7 +15,7 @@ const Resume = () => {
     >
       {/* //! Education & Experience */}
       <div className="grid gap-6 md:grid-cols-2">
-        <motion.div variants={fadeInUp} initial='initial' animate='animate'>
+        {/* <motion.div variants={fadeInUp} initial='initial' animate='animate'>
           <h5 className="my-3 text-2xl font-bold">Education</h5>
           <div className="">
             <h5 className="my-2 text-xl font-bold">
@@ -27,15 +27,15 @@ const Resume = () => {
               from Academy of Technology
             </p>
           </div>
-        </motion.div>
-        <motion.div variants={fadeInUp}  initial='initial' animate='animate'>
+        </motion.div> */}
+        {/* <motion.div variants={fadeInUp}  initial='initial' animate='animate'>
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
           <div className="">
             <h5 className="my-2 text-xl font-bold">Software Developer Jr.</h5>
             <p className="font-semibold">Tata Consultancy Services</p>
             <p className="my-3">I don't know why I am doing this job</p>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
 
       {/*Languages & Tools */}

@@ -16,11 +16,12 @@ const About: NextPage = () => {
 
   return (
     <motion.div className="flex flex-col flex-grow px-6 pt-1" variants={routeAnimation} initial='initial' animate='animate' exit='exit'>
-      <h6 className="my-3 text-base font-medium">
-        I am currently pursuing B.Tech Degree(Final Year) in Computer Science
-        Engineering from Academy of Technology. I have 3+ years of experience in
-        Web Development and I have a Youtube Channel where I teach Full Stack
-        Web Development
+      <h6 className="text-base font-medium ">
+      <h4 className="my-2 text-2xl font-bold">Hello World!</h4>
+        My name is <b>Daichi</b>, a passionate frontend developer from Tokyo.
+        I've been studying computer programming for two year.
+        I'm still inexperienced but I'll do my best!<br/>
+        I'm looking forward to working with you :)
       </h6>
       <div
         className="flex-grow p-4 mt-5 dark:bg-dark-100 "

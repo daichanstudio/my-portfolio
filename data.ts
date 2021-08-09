@@ -17,30 +17,30 @@ export const services: Service[] = [
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "handle database, server, api using <b>Firebase </b> & other popular frameworks",
+      "handle database, server, api using <b>Firebase </b>",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+      "I can develop robust  REST API using <b>Django-REST-API</b>, <b>Mock Service Worker</b>, <b>useSWR</b>",
   },
   {
     Icon: MdDeveloperMode,
-    title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+    title: "React-testing-library",
+    about: "I can test React app, using React-testing-library, <b>Jest</b>",
   },
   {
     Icon: AiOutlineAntDesign,
     title: "UI/UX designer",
     about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
+      "stunning user interface designer using <b>Material UI</b>  and  <b>Tailwind css</b> ",
   },
   {
     Icon: RiComputerLine,
     title: "Qualifications",
     about:
-      "TOEIC 900 (2021/10)<br>Applied Information Technology Engineer Examination（応用情報技術者試験）",
+      "TOEIC 885 (2021/4)<br>",
   },
 ];
 
@@ -76,6 +76,11 @@ export const languages: Skill[] = [
     name: "Redux/Redux ToolKit",
     level: "55",
   },
+  {
+    Icon: BsCircleFill,
+    name: "Python",
+    level: "50",
+  },
 
 
 ];
@@ -100,8 +105,8 @@ export const projects: IProject[] = [
     id: 1,
     name: "COVID Tracker",
     description:
-      "This app shows a statistical view about corona virus over the world",
-    image_path: "/images/covid.jpg",
+      "This app shows a statistical view about COVID-19 over the world with Map",
+    image_path: "/images/covid-tracker.jpg",
     deployed_url: "https://covid-19-tracker-2567a.web.app/",
     github_url: "https://github.com/daichanstudio/covid-19-tracker",
     category: ["react"],
@@ -110,24 +115,24 @@ export const projects: IProject[] = [
   {
     id: 2,
     name: "Mabo-log",
-    image_path: "/images/algoVisual.png",
+    image_path: "/images/mabo-log.jpg",
     deployed_url: "https://mabo-log-v2.vercel.app/",
     github_url: "https://github.com/daichanstudio/mabo-log",
     category: ["react", "next"],
     description:
-      "A blog for my brother",
+      "First Next.js Project :) My brother's Blog",
     key_techs: ["React", "Next", "Markdown", "Tailwind css"],
   },
 
   {
     id: 3,
     name: "COVID Dashboard",
-    image_path: "/images/dev.jpg",
+    image_path: "/images/covid-dashboard.jpg",
     deployed_url: "https://covid-dashboard-api-da763.firebaseapp.com/",
     github_url: "https://github.com/daichanstudio/covid_dashboard_api",
     category: ["typescript", "react"],
     description:
-    "This app shows a statistical view about corona virus over the world",
+    "This app shows a statistical view about COVID-19 over the world",
     key_techs: [
       "React",
       "Redux ToolKit",
@@ -147,37 +152,37 @@ export const projects: IProject[] = [
     github_url: "https://github.com/daichanstudio/chatbot-app",
     category: ["react"],
     description:
-      "Basic Realtime Chat App where one can create a room can talk to each other",
+      "Basic Chat App at my company",
     key_techs: ["React","Material UI"],
   },
 
   {
     id: 5,
-    name: "Code App",
-    image_path: "/images/tweetme.jpg",
-    deployed_url: "#",
-    github_url: "https://github.com/daichanstudio/code-app",
+    name: "Markdown-App",
+    image_path: "/images/markdown-app.jpg",
+    deployed_url: "https://markdown-app-16b04.web.app/",
+    github_url: "https://github.com/daichanstudio/Markdown-App",
     category: ["typescript", "react"],
     description:
-      "You can learn Markdown",
+      "This app is best learning Markdown",
     key_techs: ["React", "Typescript"],
   },
 
   {
     id: 6,
     name: "News App",
-    image_path: "/images/color.jpg",
-    deployed_url: "https://daichanstudio.github.io/News-App/",
+    image_path: "/images/news-app.jpg",
+    deployed_url: "https://expo.dev/@daichanstudio/news-app",
     github_url: "https://github.com/daichanstudio/News-App",
     category: ["react native", "react"],
     description:
-      "First React Native Project :) | ",
+      "First React Native Project :) Using News API",
     key_techs: ["React Native", "React", "News API", "Redux"],
   },
   {
     id: 7,
     name: "My Portfolio",
-    image_path: "/images/youtubeClone.png",
+    image_path: "/images/my-portfolio.jpg",
     deployed_url: "https://my-portfolio-5w93xhc6d-daichanstudio.vercel.app/",
     github_url: "https://github.com/daichanstudio/my-portfolio",
     category: ["react", "typescript", "next"],
