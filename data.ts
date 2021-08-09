@@ -173,7 +173,7 @@ export const projects: IProject[] = [
     name: "News App",
     image_path: "/images/news-app.jpg",
     deployed_url: "https://expo.dev/@daichanstudio/news-app",
-    github_url: "https://github.com/daichanstudio/News-App",
+    github_url: "https://github.com/daichanstudio/NewsApp",
     category: ["react native", "react"],
     description:
       "First React Native Project :) Using News API",
