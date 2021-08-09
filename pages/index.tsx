@@ -19,7 +19,7 @@ const About: NextPage = () => {
       <h6 className="text-base font-medium ">
       <h4 className="my-2 text-2xl font-bold">Hello World!</h4>
         My name is <b>Daichi</b>, a passionate frontend developer from Tokyo.
-        I've been studying computer programming for two year.
+        I've been studying computer programming for two years.
         I'm still inexperienced but I'll do my best!<br/>
         I'm looking forward to working with you :)
       </h6>
