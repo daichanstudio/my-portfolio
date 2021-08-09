@@ -37,7 +37,7 @@ export const services: Service[] = [
     Icon: AiOutlineAntDesign,
     title: "UI/UX Designer",
     about:
-      "According to UI/UX design, I can create user-friendly interfaces.",
+      "According to <b>UI/UX design</b>, I can create user-friendly interfaces",
   },
   {
     Icon: RiComputerLine,
