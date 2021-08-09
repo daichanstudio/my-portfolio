@@ -1,8 +1,11 @@
 # my-portfolio
 You can see all of my original app on "my-portfolio" . Please check them out!
+ <img width="1292" alt="my-portfolio" src="https://user-images.githubusercontent.com/72646084/128660089-97600c23-017c-49e7-ba10-65edc46ce0b2.png">
+
 
 # Features
 I'm using Next.js , Tailwind CSS , TypeScript(Heart for this ) & Framer Motion.
+You can change Dark-mode.
  
 # Requirement
 * TypeScript 3.9
@@ -14,7 +17,8 @@ I don't test environments under Linux and Windows.
 # Author
  
 * Daichi Watanabe
- 
+
+
 # License
  
 "my-portfolio" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
