@@ -11,6 +11,8 @@ import { Service } from "../type";
 import {motion} from 'framer-motion'
 import { fadeInUp, stagger, routeAnimation } from "../animations";
 
+
+
 const About: NextPage = () => {
   // console.log(services);
 
@@ -27,11 +29,8 @@ const About: NextPage = () => {
         className="flex-grow p-4 mt-5 dark:bg-dark-100 "
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
-      {/* <div
-        className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
-        style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
-      > */}
-        <h4 className="my-3 text-xl font-semibold tracking-wide">
+ 
+        <h4 className="my-3 text-2xl font-bold tracking-wide">
           What I am doing
         </h4>
 
@@ -43,11 +42,7 @@ const About: NextPage = () => {
               className="col-span-2 p-2 border-4 border-solid rounded-lg border-light-blue-500 dark:bg-dark-200 md:col-span-1"
               key={service.title}
             >
-            {/* <motion.div
-              variants={fadeInUp}
-              className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1 "
-              key={service.title}
-            > */}
+ 
               <ServiceCard service={service} />
             </motion.div>
           ))}
@@ -57,30 +52,5 @@ const About: NextPage = () => {
   );
 };
 
-//!called every time  the page refreshed
-// export const getServerSideProps: GetServerSideProps = async (
-//    context: GetServerSidePropsContext
-// ) => {
-//    const res = await fetch('http://localhost:3000/api/services')
-//    const data = await res.json()
-//    console.log(data)
-//    return { props: { services: data.services } }
-// }
-
-//!called only during the build of the project
-//? make sure the server(localhost:3000)[this will receive the request during build] is running on a terminal during the build
-//? also need to change the localhost during the deployment | see the todo
-// https://aude53.medium.com/set-environment-variables-with-next-js-and-vercel-e544c0460a48
-
-// export const getStaticProps: GetStaticProps = async (
-//    context: GetStaticPropsContext
-// ) => {
-//    // console.log(context);
-
-//    const res = await fetch('http://localhost:3000/api/services')
-//    const { services } = await res.json()
-//    console.log({ services })
-//    return { props: { services: services } }
-// }
 
 export default About;

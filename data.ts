@@ -4,55 +4,59 @@ import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import { IProject, Service, Skill } from "./type";
 
+
 import { BsCircleFill } from "react-icons/bs";
 
 export const services: Service[] = [
+
   {
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
       "I can build a beautiful and scalable SPA using <b>React.js</b>, <b>TypeScript</b>, and <b>Next.js</b> ",
   },
+
   {
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "handle database, server, api using <b>Firebase </b>",
+      "I can handle database, server, api using <b>SQL</b>, <b>Firebase</b>, and <b>Postman</b> ",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
     about:
-      "I can develop robust  REST API using <b>Django-REST-API</b>, <b>Mock Service Worker</b>, <b>useSWR</b>",
+      "I can develop REST API using <b>Django-REST-API</b>, and <b>Mock Service Worker</b>",
   },
   {
     Icon: MdDeveloperMode,
-    title: "React-testing-library",
-    about: "I can test React app, using React-testing-library, <b>Jest</b>",
+    title: "Testing Tools",
+    about: "I can test React component, using React-Testing-Library(RTL), <b>Jest</b>",
   },
   {
     Icon: AiOutlineAntDesign,
-    title: "UI/UX designer",
+    title: "UI/UX Designer",
     about:
-      "stunning user interface designer using <b>Material UI</b>  and  <b>Tailwind css</b> ",
+      "According to UI/UX design, I can create user-friendly interfaces.",
   },
   {
     Icon: RiComputerLine,
     title: "Qualifications",
     about:
-      "TOEIC 885 (2021/4)<br>",
+      "English:  <b>TOEIC 885</b>(April, 2021)<br/> I'm studying <b>Applied Information Technology Engineer Examination</b>",
   },
+
 ];
 
 export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "React",
+    name: "React.js",
     level: "80",
   },
   {
     Icon: BsCircleFill,
-    name: "Type Script",
+    name: "TypeScript",
     level: "75",
   },
   {
@@ -63,7 +67,7 @@ export const languages: Skill[] = [
 
   {
     Icon: BsCircleFill,
-    name: "Java Script",
+    name: "JavaScript",
     level: "90",
   },
   {
@@ -121,7 +125,7 @@ export const projects: IProject[] = [
     category: ["react", "next"],
     description:
       "First Next.js Project :) My brother's Blog",
-    key_techs: ["React", "Next", "Markdown", "Tailwind css"],
+    key_techs: ["React", "Next", "Markdown", "Tailwind CSS"],
   },
 
   {
@@ -164,7 +168,7 @@ export const projects: IProject[] = [
     github_url: "https://github.com/daichanstudio/Markdown-App",
     category: ["typescript", "react"],
     description:
-      "This app is best learning Markdown",
+      "This app is best for learning Markdown",
     key_techs: ["React", "Typescript"],
   },
 
@@ -183,7 +187,7 @@ export const projects: IProject[] = [
     id: 7,
     name: "My Portfolio",
     image_path: "/images/my-portfolio.jpg",
-    deployed_url: "https://my-portfolio-5w93xhc6d-daichanstudio.vercel.app/",
+    deployed_url: "https://my-portfolio-daichanstudio.vercel.app/",
     github_url: "https://github.com/daichanstudio/my-portfolio",
     category: ["react", "typescript", "next"],
     description:
