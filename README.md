@@ -2,7 +2,6 @@
 You can see all of my original app on "my-portfolio" . Please check them out! 
  <img width="1292" alt="my-portfolio" src="https://user-images.githubusercontent.com/72646084/128660089-97600c23-017c-49e7-ba10-65edc46ce0b2.png">
  
- 
 # Deploy on Vercel
 https://my-portfolio-chi-ochre.vercel.app/
 
