@@ -4,7 +4,7 @@ You can see all of my original app on "my-portfolio" . Please check them out!
  
  
 # Deploy on Vercel
-https://vercel.com/daichanstudio/my-portfolio
+https://my-portfolio-chi-ochre.vercel.app/
 
 
 # Features
