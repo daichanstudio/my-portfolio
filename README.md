@@ -1,6 +1,10 @@
 # my-portfolio
 You can see all of my original app on "my-portfolio" . Please check them out!
  <img width="1292" alt="my-portfolio" src="https://user-images.githubusercontent.com/72646084/128660089-97600c23-017c-49e7-ba10-65edc46ce0b2.png">
+ 
+ 
+# Deploy on Vercel
+https://vercel.com/daichanstudio/my-portfolio
 
 
 # Features
@@ -44,7 +48,4 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 
-## Deploy on Vercel
-
-https://vercel.com/daichanstudio/my-portfolio
 
